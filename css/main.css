@@ -67,6 +67,10 @@ nav {
   margin-right: 30px;
 }
 
+.header-page {
+  border-bottom: 1px solid #ececec;
+}
+
 .site-nav {
   display: flex;
   margin-left: 93px;
@@ -196,7 +200,7 @@ nav {
   background-position: center;
 }
 
-.container {
+.hero .container {
   padding-top: 200px;
   letter-spacing: 0.06em;
   color: #ffffff;
