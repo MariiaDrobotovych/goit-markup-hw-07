@@ -130,7 +130,7 @@ footer .address {
   top: 13px;
   width: 24px;
   height: 24px;
-  fill: main-bg-color;
+  fill: $main-bg-color;
 }
 
 .footer-form-phrase {
@@ -138,7 +138,7 @@ footer .address {
   margin-bottom: 20px;
   text-transform: uppercase;
 
-  color: main-bg-color;
+  color: $main-bg-color;
   font-size: 14px;
   font-weight: 700;
 }
