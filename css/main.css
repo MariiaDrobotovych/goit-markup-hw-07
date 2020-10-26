@@ -88,8 +88,7 @@ nav {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:hover, .site-nav .link:focus {
   color: #2196f3;
 }
 
@@ -156,8 +155,7 @@ nav {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-list-top .link:hover,
-.address-list-top .link:focus {
+.address-list-top .link:hover, .address-list-top .link:focus {
   color: #2196f3;
 }
 
@@ -192,8 +190,7 @@ nav {
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(47, 48, 58, 0.4);
-  background-image: url(../images/images-hero/overlay.png),
-    url(../images/images-hero/background-image.jpg);
+  background-image: url(../images/images-hero/overlay.png), url(../images/images-hero/background-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -250,8 +247,7 @@ nav {
   min-width: 528px;
   height: 581px;
   border-radius: 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   background: #ffffff;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
@@ -626,8 +622,7 @@ textarea::placeholder {
 }
 
 .staff-people {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .social-link {
@@ -648,8 +643,7 @@ textarea::placeholder {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link-thumb:focus,
-.social-link-thumb:hover {
+.social-link-thumb:focus, .social-link-thumb:hover {
   background-color: #2196f3;
   border-radius: 50%;
   cursor: pointer;
@@ -701,8 +695,7 @@ textarea::placeholder {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients .list a:focus,
-.clients .list a:hover {
+.clients .list a:focus, .clients .list a:hover {
   border: 2px solid #2196f3;
 }
 
@@ -810,8 +803,7 @@ footer .address {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sl-footer a:focus,
-.sl-footer a:hover {
+.sl-footer a:focus, .sl-footer a:hover {
   background-color: #2196f3;
 }
 
@@ -836,6 +828,7 @@ footer .address {
   box-sizing: border-box;
   background-color: #2f303a;
   border-radius: 4px;
+  color: #ffffff;
 }
 
 .footer-form .footer-icon {

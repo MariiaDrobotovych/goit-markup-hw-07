@@ -235,7 +235,7 @@ main {
 }
 
 .projects a p {
-  color: #212121;
+  color: #757575;
 }
 
 .projects-item {
@@ -430,6 +430,7 @@ footer .address {
   box-sizing: border-box;
   background-color: #2f303a;
   border-radius: 4px;
+  color: #ffffff;
 }
 
 .footer-form .footer-icon {
