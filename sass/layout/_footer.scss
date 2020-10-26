@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--secondary-bg-color);
+  background-color: $secondary-bg-color;
 }
 
 footer .container {
@@ -25,7 +25,7 @@ footer .address {
 }
 
 .address .link-address {
-  color: var(--main-bg-color);
+  color: $main-bg-color;
 }
 
 .address .link {
@@ -33,7 +33,7 @@ footer .address {
 }
 
 .address .address-start {
-  color: var(--main-bg-color);
+  color: $main-bg-color;
 }
 
 .address .address-end {
@@ -46,7 +46,7 @@ footer .address {
 
 .social-links-footer .phrase {
   text-transform: uppercase;
-  color: var(--main-bg-color);
+  color: $main-bg-color;
   font-size: 14px;
 }
 
@@ -80,7 +80,7 @@ footer .address {
 .sl-footer svg {
   width: 20px;
   height: 20px;
-  fill: var(--main-bg-color);
+  fill: $main-bg-color;
 }
 
 .sl-footer a {
@@ -96,7 +96,7 @@ footer .address {
 
   &:focus,
   &:hover {
-    background-color: var(--text-accent);
+    background-color: $text-accent;
   }
 }
 
@@ -120,7 +120,7 @@ footer .address {
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
-  background-color: var(--secondary-bg-color);
+  background-color: $secondary-bg-color;
   border-radius: 4px;
 }
 
@@ -130,7 +130,7 @@ footer .address {
   top: 13px;
   width: 24px;
   height: 24px;
-  fill: var(--main-bg-color);
+  fill: main-bg-color;
 }
 
 .footer-form-phrase {
@@ -138,7 +138,7 @@ footer .address {
   margin-bottom: 20px;
   text-transform: uppercase;
 
-  color: var(--main-bg-color);
+  color: main-bg-color;
   font-size: 14px;
   font-weight: 700;
 }
@@ -149,7 +149,7 @@ footer .address {
   height: 50px;
   padding: 10px 62px 10px 29px;
 
-  background-color: var(--text-accent);
+  background-color: $text-accent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -158,5 +158,5 @@ footer .address {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
-  color: var(--main-bg-color);
+  color: $main-bg-color;
 }

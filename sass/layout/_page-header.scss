@@ -8,7 +8,7 @@ nav {
 }
 
 .header-page .address .link {
-  color: var(--main-text);
+  color: $main-text;
   font-size: 14px;
   letter-spacing: 0.02em;
 }
@@ -30,7 +30,7 @@ nav {
   padding-bottom: 32px;
   padding-top: 32px;
 
-  color: var(--text-title);
+  color: $text-title;
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -41,7 +41,7 @@ nav {
 
   &:hover,
   &:focus {
-    color: var(--text-accent);
+    color: $text-accent;
   }
 }
 
@@ -60,7 +60,7 @@ nav {
 }
 
 .site-nav .current {
-  color: var(--text-accent);
+  color: $text-accent;
   position: relative;
 
   &::after {
@@ -71,7 +71,7 @@ nav {
     bottom: 0px;
     width: 100%;
     height: 4px;
-    background-color: var(--text-accent);
+    background-color: $text-accent;
     border-radius: 2px;
   }
 }
@@ -87,13 +87,13 @@ nav {
 .contact .icon-envelope {
   width: 16px;
   height: 12px;
-  fill: var(--main-text);
+  fill: $main-text;
 }
 
 .contact .icon-smartphone {
   width: 10px;
   height: 16px;
-  fill: var(--main-text);
+  fill: $main-text;
 }
 
 .address-list-top svg {
@@ -111,11 +111,11 @@ nav {
 
   &:hover,
   &:focus {
-    color: var(--text-accent);
+    color: $text-accent;
   }
 }
 
 .address-list-top .link:hover svg,
 .address-list-top .link:focus svg {
-  fill: var(--text-accent);
+  fill: $text-accent;
 }

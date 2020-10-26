@@ -11,12 +11,11 @@
   background-size: cover;
   background-position: center;
 }
-
-.hero .container {
+$ .container {
   padding-top: 200px;
 
   letter-spacing: 0.06em;
-  color: var(--main-bg-color);
+  color: $main-bg-color;
   text-align: center;
   text-transform: uppercase;
 }
@@ -35,7 +34,7 @@
   border: none;
   border-radius: 4px;
 
-  background-color: var(--text-accent);
-  color: var(--main-bg-color);
+  background-color: $text-accent;
+  color: $main-bg-color;
   background-color: #2196f3;
 }

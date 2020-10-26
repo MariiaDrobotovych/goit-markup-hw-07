@@ -4,7 +4,7 @@
 }
 
 .staff-section {
-  background-color: var(--grey-bg-color);
+  background-color: $grey-bg-color;
 }
 .staff > .section-title {
   margin-top: 0px;
@@ -28,7 +28,7 @@
 }
 
 .staff-list li {
-  background-color: var(--main-bg-color);
+  background-color: $main-bg-color;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -73,7 +73,7 @@
 
   &:focus,
   &:hover {
-    background-color: var(--text-accent);
+    background-color: $text-accent;
     border-radius: 50%;
     cursor: pointer;
   }
@@ -81,7 +81,7 @@
 
 .social-link-thumb:hover svg,
 .social-link-thumb:focus svg {
-  fill: var(--main-bg-color);
+  fill: $main-bg-color;
 }
 
 .social-link svg {
