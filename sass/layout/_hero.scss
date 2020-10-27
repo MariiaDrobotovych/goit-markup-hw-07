@@ -24,6 +24,10 @@
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
+
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
 }
 
 .button {
@@ -38,4 +42,5 @@
   background-color: $text-accent;
   color: $main-bg-color;
   background-color: #2196f3;
+  cursor: pointer;
 }
